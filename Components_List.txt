@@ -1,0 +1,15 @@
+COMPONENTS USED
+
+1. Arduino Uno - 1
+
+2. LDR Sensor - 1
+
+3. LED - 1
+
+4. 220Ω Resistor - 1
+
+5. 10kΩ Resistor - 1
+
+6. Breadboard - 1
+
+7. Jumper Wires - As Required
