@@ -1,0 +1,50 @@
+AUTO INTENSITY STREET LIGHT
+
+Introduction
+
+Street lighting consumes a significant amount of electrical energy. This project aims to reduce power consumption by automatically adjusting street light brightness according to ambient light conditions. The system uses an Arduino Uno and an LDR sensor.
+
+Objective
+
+To design an automatic street light system that controls LED brightness depending on environmental light intensity.
+
+Components Used
+
+- Arduino Uno
+- LDR Sensor
+- LED
+- 220Ω Resistor
+- 10kΩ Resistor
+- Breadboard
+- Jumper Wires
+
+Circuit Connections
+
+- LDR → A0
+- LED Positive → Pin 9
+- LED Negative → GND
+- LDR connected with 10kΩ resistor as a voltage divider.
+
+Working Principle
+
+The LDR continuously senses surrounding light intensity. During daylight, the resistance of the LDR is low and the LED remains OFF. As darkness increases, the resistance changes and the Arduino increases the LED brightness using PWM.
+
+Advantages
+
+- Saves electricity
+- Automatic operation
+- Low cost
+- Easy to implement
+- Reliable
+
+Applications
+
+- Street Lights
+- Parking Lots
+- Gardens
+- Smart Cities
+- Campus Lighting
+
+Conclusion
+
+The Auto Intensity Street Light system successfully demonstrates an energy-efficient lighting solution using Arduino and an LDR sensor. It automatically adjusts brightness according to surrounding light, reducing unnecessary power consumption.
